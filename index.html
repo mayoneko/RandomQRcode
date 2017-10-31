@@ -70,8 +70,8 @@
             var qx=[29,28,27,26,25,24,23,22,12,12,12,12,12,12,12];
             var qy=[12,12,12,12,12,12,12,12,23,24,25,26,27,28,29];
             for(var i=0;i<px.length;i++){
-                fill(get(px*width/33,py*width/33));
-                rect(qx*width/33,qy*width/33,width/33,width/33);
+                fill(get(px[i]*width/33,py[i]*width/33));
+                rect(qx[i]*width/33,qy[i]*width/33,width/33,width/33);
             }
             fill(255);
             rect(width / 33 * 4, width / 33 * 4, width / 33 * 8, width / 33 * 8);
